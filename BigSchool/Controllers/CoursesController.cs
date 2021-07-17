@@ -63,7 +63,10 @@ namespace BigSchool.Controllers
             }
             return View(courses);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
         public ActionResult Mine()
         {
             ApplicationUser currentUser = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().
@@ -75,6 +78,7 @@ namespace BigSchool.Controllers
             }
             return View(courses);
         }
+<<<<<<< HEAD
 
 
         public ActionResult LectureIamGoing()
@@ -100,5 +104,7 @@ namespace BigSchool.Controllers
 
             return View(courses);
         }
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
     }
 }

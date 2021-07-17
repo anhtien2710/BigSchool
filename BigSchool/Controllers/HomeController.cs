@@ -39,6 +39,11 @@ namespace BigSchool.Controllers
             }
             return View(upcommingCourse);
         }
+<<<<<<< HEAD
 
         }
     }
+=======
+    }
+}
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7

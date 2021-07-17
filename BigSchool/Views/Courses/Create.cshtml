@@ -34,8 +34,13 @@
                         <div class="col-md-10">
                             @*@Html.EditorFor(model => model.CategoryId, new { htmlAttributes = new { @class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })*@
+<<<<<<< HEAD
                             @Html.DropDownList("CategoryId", new SelectList(Model.ListCategory, "Id", "Name"), htmlAttributes: new { @class = "form-control" })
                             @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+=======
+                            @Html.DropDownList("CatagoryId", new SelectList(Model.ListCatagory, "Id", "Name"), htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.CatagoryId, "", new { @class = "text-danger" })
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
                         </div>
                     </div>
 

@@ -193,7 +193,10 @@
     <Compile Include="Models\BigSchoolContext.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\Following.cs" />
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -258,7 +261,10 @@
     <Content Include="Views\Courses\Create.cshtml" />
     <Content Include="Views\Courses\Attending.cshtml" />
     <Content Include="Views\Courses\Mine.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Courses\LectureIamGoing.cshtml" />
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

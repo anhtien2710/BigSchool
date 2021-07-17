@@ -38,12 +38,23 @@
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Attendance> Attendances { get; set; }
 
+<<<<<<< HEAD
         public virtual Category Category { get; set; }
+=======
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Attendance> Attendances { get; set; }
+
+        public virtual Catagory Catagory { get; set; }
+        
+
+        
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
 
         public List<Category> ListCategory = new List<Category>();
 
         public string Name;
         public string LectureName;
+<<<<<<< HEAD
         public bool isLogin = false;
         public bool isShowGoing = false;
         public bool isShowFollow = false;
@@ -55,5 +66,7 @@
         {
             return (DateTime)value > DateTime.Now;
         }
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
     }
 }

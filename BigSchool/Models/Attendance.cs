@@ -11,7 +11,10 @@ namespace BigSchool.Models
     {
         [Key]
         [Column(Order = 0)]
+<<<<<<< HEAD
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
+=======
+>>>>>>> 2304f3498f000046c9f9a6d29b18559992819ec7
         public int CourseId { get; set; }
 
         [Key]
