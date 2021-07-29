@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BigSchool"
+    "\\BigSchool",
+    "\\BigSchool\\Controllers"
   ],
   "SelectedNode": "\\BigSchool.sln",
   "PreviewInSolutionExplorer": false
